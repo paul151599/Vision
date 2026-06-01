@@ -1,0 +1,22 @@
+# ── PyInstaller / build artifacts ──
+build/
+dist/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ── Large binary test data (제외: GitHub 용량 부담. 필요 시 Git LFS 사용) ──
+*.bmp
+
+# ── Runtime outputs ──
+output/
+
+# ── Editor / local settings ──
+.claude/
+.vscode/
+.idea/
