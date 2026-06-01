@@ -12,6 +12,9 @@ env/
 
 # ── Large binary test data (제외: GitHub 용량 부담. 필요 시 Git LFS 사용) ──
 *.bmp
+# 단, 각 공정 #1 샘플 2장은 Ref/테스트 용도로 포함
+!R20-11377&Densification #1.bmp
+!R20-11377&Reactor #1.bmp
 
 # ── Runtime outputs ──
 output/
